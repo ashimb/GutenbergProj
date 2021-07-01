@@ -1,0 +1,133 @@
+<div class="container">
+  <div  fxLayout='column' fxLayoutAlign='center'>
+      <div fxFlex fxLayoutAlign='center'>
+        <p class='heading1'>Gutenberg Project</p>
+           
+      </div>
+      <div fxLayoutAlign='center'>
+        <p class='para'>A social cataloging website that allows you to
+            freely search its database of books,
+            annotations, and reviews.</p>
+      </div>
+      <div fxLayout fxLayoutAlign='space-evenly center' fxLayoutGap='10px' > 
+
+          <div fxLayout='column' fxLayoutGap='10px'>
+            
+                <div fxLayout='row' fxLayoutAlign='space-between center' class='genre-card' >
+                    <div class='img' fxFlex="20">
+                                  
+                   <img src='/assets/images/Fiction.svg'/>
+                    </div>
+                    <div fxFlex='60' class='genre-card-text'>
+                        FICTION
+                    </div>
+                    <div fxFlex ="5">
+                        <a routerLink='/list' [queryParams]="{category:'Fiction'}"><img src='/assets/images/Next.svg'/></a> 
+                    </div>
+                    
+                </div>
+            
+            
+                 
+                <div fxLayout='row' fxLayoutAlign='space-between center' class='genre-card'
+               >
+                    <div fxFlex="20">
+                                  
+                    <img src='/assets/images/Drama.svg'/>
+                    </div>
+                    <div fxFlex='60' class='genre-card-text'>
+                        DRAMA
+                    </div>
+                    <div fxFlex ="5">
+                       <a  [routerLink]="['/list']" [queryParams]="{category:'Drama'}"> <img src='/assets/images/Next.svg'/></a>
+                    </div>
+            
+                </div>
+           
+                    <div fxLayout='row' fxLayoutAlign='space-between center' class='genre-card'
+                   >
+                        <div fxFlex="20">
+                                      
+                        <img src='/assets/images/Humour.svg'/>
+                        </div>
+                        <div fxFlex='60' class='genre-card-text'>
+                            HUMOR
+                        </div>
+                        <div fxFlex ="5">
+                         <a  [routerLink]="['/list']"  [queryParams]="{category:'Humor'}">  <img src='/assets/images/Next.svg'/></a> 
+                        </div>
+                        
+                    </div>
+                
+           
+                    <div fxLayout='row' fxLayoutAlign='space-between center' class='genre-card'
+                   >
+                        <div fxFlex="20">
+                                      
+                        <img src='/assets/images/Politics.svg'/>
+                        </div>
+                        <div fxFlex='60' class='genre-card-text'>
+                           POLITICS
+                        </div>
+                        <div fxFlex ="5">
+                           <a  [routerLink]="['/list']"  [queryParams]="{category:'Politics'}"> <img src='/assets/images/Next.svg'/></a>
+                        </div>
+                        
+                    </div>
+                
+          </div>
+          <div fxLayout='column'>
+              
+            <div fxLayout='row' fxLayoutAlign='space-between center' class='genre-card' 
+           >
+                        <div fxFlex="20">
+                                      
+                        <img src='/assets/images/Philosophy.svg'/>
+                        </div>
+                        <div fxFlex='60' class='genre-card-text'>
+                            PHILOSOPHY
+                        </div>
+                        <div fxFlex ="5">
+                          <a  [routerLink]="['/list']"  [queryParams]="{category:'Philosophy'}"> <img src='/assets/images/Next.svg'/></a> 
+                        </div>
+                        
+            </div>
+            
+                <div fxLayout='row' fxLayoutAlign='space-between center' class='genre-card'
+               >
+                    <div fxFlex="20">
+                                  
+                    <img src='/assets/images/History.svg'/>
+                    </div>
+                    <div fxFlex='60' class='genre-card-text'>
+                        HISTORY
+                    </div>
+                    <div fxFlex ="5">
+                       <a  [routerLink]="['/list']"  [queryParams]="{category:'History'}"> <img src='/assets/images/Next.svg'/></a>
+                    </div>
+                    
+                </div>
+            
+            
+                <div fxLayout='row' fxLayoutAlign='space-between center' class='genre-card'
+               >
+                    <div fxFlex="20">
+                                  
+                    <img src='/assets/images/Adventure.svg'/>
+                    </div>
+                    <div fxFlex='60' class='genre-card-text'>
+                        ADVENTURE
+                    </div>
+                    <div fxFlex ="5">
+                       <a  [routerLink]="['/list']"  [queryParams]="{category:'Adventure'}"> <img src='/assets/images/Next.svg'/></a>
+                    </div>
+                    
+                </div>
+            
+          </div>
+        
+               
+      </div>
+
+  </div>
+</div>

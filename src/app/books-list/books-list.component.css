@@ -1,0 +1,54 @@
+
+
+
+.heading2{
+    margin-left: 2%;
+    text-align: left;
+    font: Montserrat,;
+    color: #5E56E7;
+    font-size:30px ;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.headingarrow{
+    width: 100%;
+    display: flex;
+}
+
+.book-background{
+    background-color: #F0F0F6;
+}
+
+input:focus{
+    color: #333333;
+    border: 1px solid #5E56E7;
+   }
+
+.textbox{
+    
+    font: Montserrat,;
+    font-style:normal;
+    font-size:16px;
+    font-weight: 600;
+    color: #A0A0A0;
+    background-color: #F0F0F6;
+    width:100%;
+    border-radius : 4 px ;
+    padding-left: 10px;
+    padding-right: 10px ;
+    height : 40px;
+    box-shadow: 0 2px 5px 0 rgba(211, 209, 238, 0.5);
+    border:#F0F0F6;
+    }
+
+ 
+
+
+
+.arrow {
+        width: 16px;
+        height: 16px;
+        background: transparent url("/assets/images/Back.svg") 0% 0% no-repeat
+          padding-box;
+      }
